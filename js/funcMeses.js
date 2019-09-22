@@ -1,5 +1,10 @@
-    function  getData(){
-      alert('estoy en la funcion');
+  'use strict'
+    alert('Estoy en la funcion ahora !!!!');
+    document.getElementById("btn").addEventListener('click',ejecutar);
+  
+     function ejecutar()
+     {
       let mes = document.getElementById("elMes").Value;
-      document.write(mes);
+      mes=parseInt(mes);
+      alert(mes);
     }

@@ -73,6 +73,15 @@ p{
     margin: 0 auto;
 }
 
+.midiv{
+    font-size: 34px;
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 2;
+    color: #2c3e50;
+
+}
+
 
 nav ul{
     position:relative;
@@ -119,6 +128,11 @@ body-sticky-header header {
 
 body.sticky-header h1{
     transform: scale(0,0);
+}
+
+#acheUno{
+  color: #2c3e50;
+  background: #ecf0f1;
 }
 
 .heder2{
