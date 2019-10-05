@@ -102,6 +102,16 @@ nav ul li a{
     text-decoration: none;
 }
 
+clasediv{
+    
+    display:inline-block;
+    width: 24%;
+    line-height: 50px;
+    list-style: none;
+    color:white;
+    text-decoration: none; 
+}
+
 section{
     margin: 10px;
     background: white;

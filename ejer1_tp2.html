@@ -2,17 +2,23 @@
 <html lang="en" >
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="http://localhost/practicosPHP/css/estilo.css">
+    <link rel="stylesheet" href="css/estilo.css">
     <title></title> 
   </head>
   
    <body>
-    <div>
-      <input type="text" name="elMes" id="elMes"  value="" placeholder="Ingrese un Mes">
+    <!-- <div class="clasediv">
+      <input type="number" name="elMes" id="elMes"  placeholder="Ingrese un Mes">
       <button type="button" name="btn" id="btn">CHEQUEAR</button>
-    </div>
-    <script type="text/javascript" src="js/funcMeses.js"></script>    
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    </div> -->
+
+    <form action="losMeses.php" method="POST">
+      <input type="number" name="elMes" id="elMes"  placeholder="Ingrese el Mes">
+      <button type="button" name="btn" id="btn">EJECUTAR</button>
+    </form>
+    
+    <!-- <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="js/funcMeses.js"></script>  -->
     </body>
   
  </html>  
